@@ -1,0 +1,66 @@
+{
+    "Problem": [
+        {
+            "Lower bound": 11.7,
+            "Name": "unknown",
+            "Number of constraints": 45,
+            "Number of nonzeros": 116,
+            "Number of objectives": 1,
+            "Number of variables": 21,
+            "Sense": "minimize",
+            "Upper bound": 11.7
+        }
+    ],
+    "Solution": [
+        {
+            "number of solutions": 1,
+            "number of solutions displayed": 1
+        },
+        {
+            "Constraint": "No values",
+            "Gap": 0.0,
+            "Message": null,
+            "Objective": {
+                "minimum_cost": {
+                    "Value": 11.7
+                }
+            },
+            "Problem": {},
+            "Status": "optimal",
+            "Variable": {
+                "chosen_VMs[large]": {
+                    "Value": 1.0
+                },
+                "chosen_job[AlexNet]": {
+                    "Value": 1.0
+                },
+                "chosen_job[GoogLeNet]": {
+                    "Value": 1.0
+                },
+                "deployment[AlexNet,large,1]": {
+                    "Value": 1.0
+                },
+                "deployment[GoogLeNet,large,1]": {
+                    "Value": 1.0
+                },
+                "final_cost": {
+                    "Value": 11.7
+                }
+            }
+        }
+    ],
+    "Solver": [
+        {
+            "Error rc": 0,
+            "Statistics": {
+                "Branch and bound": {
+                    "Number of bounded subproblems": "17",
+                    "Number of created subproblems": "17"
+                }
+            },
+            "Status": "ok",
+            "Termination condition": "optimal",
+            "Time": 0.04253411293029785
+        }
+    ]
+}
